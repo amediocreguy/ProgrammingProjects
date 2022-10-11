@@ -23,6 +23,9 @@ Here if you want, you can change your text to be the same as the Hearthstone car
 Finally, create a UI Image that is above the Card Template in the Hierarchy so that your card looks like the below.
 ![alt text](https://i.imgur.com/9zk8kA4.png)
 
+![alt text](https://i.imgur.com/00aGNLv.png)
+
+
 
 ## 2. Creating our Script
 
@@ -62,7 +65,13 @@ Having created a new card from the menu, in the inspector you will be able to se
 For my image and references I have used the Annoy-o-tron card and my data looks as follows.
 ![alt text](https://i.imgur.com/OiqTzk7.png)
 
-This will of course not do anything to the actual card yet, so to display them, we will create a new script called `CardDisplay`
+This will of course not do anything to the actual card yet, so to display them, we will create a new script called `CardDisplay` and attach it to our Card UI Object.
+
+In the script add a public variable that is `public Card card;`
+
+This will let you take the card you created and drop it into the script like so
+
+![alt text](https://i.imgur.com/ZHVoUbc.png)
 
 
 
