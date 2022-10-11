@@ -23,3 +23,51 @@ Here if you want, you can change your text to be the same as the Hearthstone car
 Finally, create a UI Image that is above the Card Template in the Hierarchy so that your card looks like the below.
 ![alt text](https://i.imgur.com/9zk8kA4.png)
 
+
+## 2. Creating our Script
+
+Now, in our project folder, create a scripts folder and create a C# script with the name `Card`
+In that script we need to tell the script what data it will need for each card, so input the following code.
+
+```.cs
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Card : ScriptableObject;
+{
+    public new string name;
+    public string description;
+
+
+    public Sprite artwork;
+
+    public int manaCost;
+    public int attack;
+    public int health;
+
+}
+```
+Making sure to change the MonoBehaviour to ScriptableObject, above ScriptableObject, add the code
+```[CreateAssetMenu(fileName = "New Card", menuName = "Card")]```
+
+This means that we can use the script from the asset menu, and it will create a new object in the menu called new card.
+
+Now when you right click in your project menu and move to create, you should see Card at the top, click it and it could create an asset called "New Card".
+
+## 3. Creating a card
+
+Having created a new card from the menu, in the inspector you will be able to set its name, description, health, attack and mana cost.
+
+For my image and references I have used the Annoy-o-tron card and my data looks as follows.
+![alt text](https://i.imgur.com/OiqTzk7.png)
+
+This will of course not do anything to the actual card yet, so to display them, we will create a new script called `CardDisplay`
+
+
+
+
+
+
+
+
