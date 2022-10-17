@@ -95,8 +95,16 @@ Back in Unity take the corresponding card elements and add them into the CardDis
 
 ![alt text](https://i.imgur.com/UV2NeLk.png)
 
+Within the script now in the `Start` method we can add the following script to display the correct information on the card:
 
+nameText.text = card.name;
+descText.text = card.description;
 
+`manaText.text = card.manaCost.ToString();`
+`healthText.text = card.health.ToString();`
+`attackText.text = card.attack.ToString();`
+
+`artworkImage.sprite = card.artwork;`
 
 
 
