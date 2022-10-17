@@ -93,6 +93,7 @@ Add the variables:
 
 Back in Unity take the corresponding card elements and add them into the CardDisplay variables, like so:
 
+![alt text](https://i.imgur.com/UV2NeLk.png)
 
 
 
