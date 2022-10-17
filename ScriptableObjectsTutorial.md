@@ -73,6 +73,25 @@ This will let you take the card you created and drop it into the script like so
 
 ![alt text](https://i.imgur.com/ZHVoUbc.png)
 
+## 4. Adding our elements to our card
+
+Within your CardDisplay Script add to the top `using UnityEngine.UI;` this will allow us to reference the UI within the Unity Engine in our Script.
+
+Add the variables:
+
+`public Text nameText`
+
+`public Text descText`
+
+`public Text manaText` 
+
+`public Text attackText`
+
+`public Text healthText`
+
+`public Image artworkImage`
+
+
 
 
 
