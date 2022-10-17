@@ -91,6 +91,8 @@ Add the variables:
 
 `public Image artworkImage`
 
+Back in Unity take the corresponding card elements and add them into the CardDisplay variables, like so:
+
 
 
 
