@@ -97,14 +97,23 @@ Back in Unity take the corresponding card elements and add them into the CardDis
 
 Within the script now in the `Start` method we can add the following script to display the correct information on the card:
 
-nameText.text = card.name;
-descText.text = card.description;
+`nameText.text = card.name;` 
+
+`descText.text = card.description;`
+
 
 `manaText.text = card.manaCost.ToString();`
+
 `healthText.text = card.health.ToString();`
+
 `attackText.text = card.attack.ToString();`
 
+
 `artworkImage.sprite = card.artwork;`
+
+Now when you play in Unity, you should see that your card is updated, with all the correct information!
+
+## Scriptable Object Complete.
 
 
 
