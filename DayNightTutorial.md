@@ -69,18 +69,6 @@ Also add the attribute above the public class `[ExecuteInEditMode]` or `[Execute
 
 This will allow us to manage the time of day whilst not playing the game and in edit mode in Unity.
 
+Add the following  `OnValidate` Function:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![alt text](https://i.imgur.com/5LjwGn6.png)
