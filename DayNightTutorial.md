@@ -72,3 +72,9 @@ This will allow us to manage the time of day whilst not playing the game and in 
 Add the following  `OnValidate` Function:
 
 ![alt text](https://i.imgur.com/5LjwGn6.png)
+
+This will make it so any time you change anything in the editor it will check for and change what light is set to the sun and if no light is set to the sun it will set the first directional light found to the sun.
+
+Now we will add in a script on a UpdateLighting function that will take a variable from 0 to 1 and depending on our preset it will change the gradients.
+
+![alt text](https://i.imgur.com/LfpyTKs.png)
