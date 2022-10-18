@@ -49,6 +49,27 @@ This is my gradients:
 ![alt text](https://i.imgur.com/A107jCa.png)
 
 
+## 4. Lighting Manager
+
+Open your `LightingManager` script.
+
+In this script we want to add two SerializeFields as References and one as a Variable, like follows
+
+`//References`
+
+`[SerializeField] private Light DirectionalLight;`
+
+`[SerializeField] Private LightingPreset Preset;`
+
+`//Variables`
+
+`[SerializeField, Range (0, 24)] private float TimeOfDay;`
+
+
+
+
+
+
 
 
 
