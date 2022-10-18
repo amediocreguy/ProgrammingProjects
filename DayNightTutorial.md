@@ -59,11 +59,17 @@ In this script we want to add two SerializeFields as References and one as a Var
 
 `[SerializeField] private Light DirectionalLight;`
 
-`[SerializeField] Private LightingPreset Preset;`
+`[SerializeField] private LightingPreset Preset;`
 
 `//Variables`
 
 `[SerializeField, Range (0, 24)] private float TimeOfDay;`
+
+Also add the attribute above the public class `[ExecuteInEditMode]` or `[ExecuteAlways]` depending on your version of Unity.
+
+This will allow us to manage the time of day whilst not playing the game and in edit mode in Unity.
+
+
 
 
 
