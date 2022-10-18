@@ -75,6 +75,16 @@ Add the following  `OnValidate` Function:
 
 This will make it so any time you change anything in the editor it will check for and change what light is set to the sun and if no light is set to the sun it will set the first directional light found to the sun.
 
-Now we will add in a script on a UpdateLighting function that will take a variable from 0 to 1 and depending on our preset it will change the gradients.
+Now we will add in a script on a UpdateLighting function that will take a variable from 0 to 1 and depending on our preset it will change the gradients, rotation and color of the light, the rotation will change depending on the time of sky you are using for your scene.
 
 ![alt text](https://i.imgur.com/LfpyTKs.png)
+
+
+And finally in that script we will take our update funtion and after checking that we have a preset set, we will add script that allows it to test if the game is playing, and it will then change the time of from 0-24
+
+![alt text](https://i.imgur.com/5BT2TNw.png)
+
+
+## 5. Testing
+
+Now return to Unity, and create an empty game object I have called my Lighting Manager, assign your `LightingManager` script to this object and the lighting preset you created earlier to the Preset variable, now, when you move the Time of Day slider, the lighting in the scene should change.
