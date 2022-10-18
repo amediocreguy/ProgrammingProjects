@@ -32,6 +32,28 @@ In the `LightingPreset` script add the following code:
 
 `//Changing from monobehaviour to ScriptableObject will let us share a preset between scenes on a single file`
 
+Add the following variables to the script:
+
+`public Gradient AmbientColor;`
+
+`public Gradient DirectionalColor;`
+
+`public Gradient FogColor;`
+
+Now, go back into unity, right click go into scriptables and create a lighting preset, I have called mine `DefaultLighing`
+
+Play around with the gradients in the default lighting preset to fit what you want it to look like.
+
+This is my gradients:
+
+![alt text](https://i.imgur.com/A107jCa.png)
+
+
+
+
+
+
+
 
 
 
