@@ -30,3 +30,11 @@ Within your lamp item create a point light, this is what we will use with the sc
 Apply the `TurnLight` script to your lamp object, and put your light into the light variable slot.
 
 ![alt text](https://i.imgur.com/tjHfC8O.png)
+
+## 4 Test it out
+
+This should all now work, if you play your scene, move into your sphere collider and press E, your light should turn on and off.
+
+I took a small amount of time to make sure that the sphere collider was the right size now and that my light was in the correct place and colour.
+
+![alt text] (https://i.imgur.com/wU8Fb6U.png) ![alt text](https://i.imgur.com/rphyCkN.png)
