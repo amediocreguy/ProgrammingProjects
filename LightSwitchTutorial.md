@@ -1,5 +1,7 @@
 ## 1 Creating our scene
 
+https://www.youtube.com/watch?v=FhMuL70xLus
+
 To start off I have created a default 3D unity scene and made a simple "Lamp" that can act as our switchable object. (For me, I have simply used a cube).
 And have imported the 3rd person character controller from the asset store.
 
@@ -7,5 +9,15 @@ https://assetstore.unity.com/packages/essentials/starter-assets-third-person-cha
 
 Start out by opening the `Playground` scene in the editor, this willl give you a character and controller to work with and a small scene where you can place your lamp.
 
-![alt text](blob:https://imgur.com/4d3fb9fe-2b8e-4644-80ef-2b6fc4e37c08)
+![alt text](https://i.imgur.com/zh2COIq.png)
+
+On your lamp, make sure you have a collider that is set to `Is Trigger` on the object, and make it so that it is the range of how far you would like the player to be to activate the light.
+
+![alt text](https://i.imgur.com/pQpyQ3l.png)
+
+
+
+## 2 Creating our script
+
+In your unity editor create a scritp and call it `TurnLight` the script is as follows, annotated to make it easier to understand what each line is doing.
 
