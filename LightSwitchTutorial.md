@@ -11,7 +11,7 @@ Start out by opening the `Playground` scene in the editor, this willl give you a
 
 ![alt text](https://i.imgur.com/zh2COIq.png)
 
-On your lamp, make sure you have a collider that is set to `Is Trigger` on the object, and make it so that it is the range of how far you would like the player to be to activate the light.
+On your lamp, make sure you have a collider that is set to `Is Trigger` on the object, and make it so that it is the range of how far you would like the player to be to activate the light. (I have used a sphere collider)
 
 ![alt text](https://i.imgur.com/pQpyQ3l.png)
 
@@ -19,5 +19,5 @@ On your lamp, make sure you have a collider that is set to `Is Trigger` on the o
 
 ## 2 Creating our script
 
-In your unity editor create a scritp and call it `TurnLight` the script is as follows, annotated to make it easier to understand what each line is doing.
-
+In your unity editor create a scritp and call it `TurnLight` the script is as follows, annotated to make it easier to understand what each line is doing. 
+![alt text](https://i.imgur.com/DVaycw3.png)
