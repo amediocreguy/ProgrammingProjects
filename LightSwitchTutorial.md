@@ -37,4 +37,5 @@ This should all now work, if you play your scene, move into your sphere collider
 
 I took a small amount of time to make sure that the sphere collider was the right size now and that my light was in the correct place and colour.
 
-![alt text] (https://i.imgur.com/wU8Fb6U.png) ![alt text](https://i.imgur.com/rphyCkN.png)
+![alt text](https://i.imgur.com/wU8Fb6U.png) 
+![alt text](https://i.imgur.com/rphyCkN.png)
