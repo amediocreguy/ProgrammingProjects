@@ -21,3 +21,12 @@ On your lamp, make sure you have a collider that is set to `Is Trigger` on the o
 
 In your unity editor create a scritp and call it `TurnLight` the script is as follows, annotated to make it easier to understand what each line is doing. 
 ![alt text](https://i.imgur.com/DVaycw3.png)
+
+
+## 3 Adding our light
+
+Within your lamp item create a point light, this is what we will use with the script to actually be our light within the cube, so align it with your cube and set its settings to be how you want it to look when turned on.
+
+Apply the `TurnLight` script to your lamp object, and put your light into the light variable slot.
+
+![alt text](https://i.imgur.com/tjHfC8O.png)
